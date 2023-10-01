@@ -26,7 +26,7 @@ const Left = () => {
                     <div className='h-12 w-12  flex items-center justify-center bg-white rounded-full border-4 border-opacity-80' >
                     <PhoneCall color="black" size={30} />
                     </div>
-                    <div className=" h-[50px] text-white text-[18px] md:text-[32px] font-medium font-['Playfair Display'] ">
+                    <div className="flex items-center h-[50px] text-white text-[18px] md:text-[32px] font-medium font-['Playfair Display'] ">
                         0 696 23 71 72
                     </div>
                 </div>
@@ -35,7 +35,7 @@ const Left = () => {
                     <div className='h-12 w-12  flex items-center justify-center bg-white rounded-full border-4 border-opacity-80' >
                     <Mail color="black" size={30} />
                     </div>
-                    <div className=" h-[50px] text-white text-[18px] md:text-[32px] font-medium font-['Playfair Display'] ">
+                    <div className="flex items-center h-[50px] text-white text-[18px] md:text-[32px] font-medium font-['Playfair Display'] ">
                         contact.awc.design@gmail.com
                     </div>
                 </div>

@@ -31,7 +31,7 @@ const Right = () => {
                 className=" absolute flex items-center justify-center w-[71px] h-[71px] shadow rounded-full custom-shadows-button bottom-8 right-9" 
                 style={{background: '#4DB6AC'}}
                 >
-                    <Send color="white" size={44} />
+                    <Send className='relative right-1 top-1' color="white" size={44} />
                 </button>
             </form>
         </div>
