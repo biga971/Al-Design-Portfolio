@@ -1,0 +1,17 @@
+
+  .swiper-custom {
+    width: 100%!important;
+    height: 100%!important;
+  }
+  
+  .swiper-slide-custom {
+    text-align: center;
+    font-size: 18px;
+    flex-shrink: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  

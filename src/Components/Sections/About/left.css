@@ -1,0 +1,60 @@
+
+
+.myImg{
+    width: 0px;
+    height: 0px;
+}
+
+.myImg::before{
+    content: "";
+    position: relative;
+    display: flex;
+    width: 362px;
+    height: 428px;
+    top: -40px;
+    left: -420px;
+    background: rgba(229, 229, 229, 0.3);
+    z-index: -2;
+    border-radius: 43px;
+    
+}
+
+.shadowImg{
+    -webkit-box-shadow: 37px 30px 15px 14px rgba(0,0,0,0.4); 
+    box-shadow: 37px 30px 15px 14px rgba(0,0,0,0.4);
+}
+
+/* @media screen and (max-width: 1600px) { 
+    .swiper-slide {
+      width: 400px;
+      height: 400px;
+    }
+  }
+   */
+@media screen and (max-width: 400px) { 
+
+    .myImg::before{
+       
+        width: 250px;
+        height: 300px;
+        top: -20px;
+        left: -270px;
+        background: rgba(229, 229, 229, 0.3);
+        z-index: -2;
+        border-radius: 43px;
+        
+    }
+    .shadowImg{
+        -webkit-box-shadow: 21px 19px 28px -5px rgba(0,0,0,0.54); 
+        box-shadow: 21px 19px 28px -5px rgba(0,0,0,0.54);
+    }
+
+    
+}
+
+/* @media screen and (max-width: 400px) { 
+.swiper-slide {
+    width: 250px;
+    height: 250px;
+}
+} */
