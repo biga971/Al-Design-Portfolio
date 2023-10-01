@@ -12,7 +12,7 @@ const Right = () => {
     const [message, setMessage] = useState('')
 
     return (
-        <div className="w-full h-full flex items-center jus">
+        <div className="w-full h-full flex items-center justify-center">
             <form className="w-[629px] h-[545px] bg-black bg-opacity-5 rounded-[21px] custom-shadows px-8 py-6 grid grid-cols-2 grid-rows-6 gap-4 relative " >
                 <Input style="" placeholder='Nom*' onChangeText={setLastName}/>
                 <Input style="" placeholder='Prénom*' onChangeText={setFirstName}/>
