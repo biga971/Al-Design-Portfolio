@@ -1,3 +1,7 @@
+import { FaFacebook, FaXTwitter, FaSquareXTwitter, FaSquareInstagram } from "react-icons/fa6";
+import { IconType } from "react-icons";
+
+
 export const navLinksdata = [
   {
     _id: 1001,
@@ -6,7 +10,7 @@ export const navLinksdata = [
   },
   {
     _id: 1002,
-    title: "A propos",
+    title: "À propos",
     link: "about",
   },
   {
@@ -49,7 +53,7 @@ export const custommersRiviews = [
   },
   {
     _id: 3,
-    rate: 4.5,
+    rate: 4,
     description: "Je suis vraiment contente de mon logo. Encore merci !",
     name: "Manuella KITTAVINY"
   },
@@ -59,6 +63,7 @@ export type Isocials = {
   _id: number
   media: string
   name: string
+  logo: IconType
   url: any
 }
 

@@ -1,8 +1,4 @@
 import React from 'react'
-import Box from './box'
-import { custommersRiviews } from '../../../constants'
-import CircleButton from '../../CircleButton'
-import { ArrowRight, ArrowLeft } from 'react-feather';
 import Slider from './Slider';
 
 const CustomerReviews = () => {
