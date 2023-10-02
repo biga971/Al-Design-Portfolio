@@ -9,7 +9,7 @@ const Projects = () => {
            id='projects'
            className="w-full h-full flex flex-col items-center mt-32"
         >
-            <div className="w-[386px] h-[72px] text-centerv text-teal-600 text-[64px] font-semibold font-['Playfair Display'] leading-[56px] ">
+            <div className="w-[386px] h-[72px] text-centerv text-teal-600 text-[47px] md:text-[64px] font-semibold font-['Playfair Display'] leading-[56px] ">
                 Mes projets
             </div>
            {/*  <Carousel /> */}

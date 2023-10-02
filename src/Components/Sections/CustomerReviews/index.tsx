@@ -15,7 +15,7 @@ const CustomerReviews = () => {
           id='CustomerReviews'
           className='flex flex-col items-center justify-center w-full mt-16 pt-10 '
         >
-            <div className="w-[333px] h-[72px] text-center text-teal-600 text-[64px] font-semibold font-['Playfair Display'] leading-[56px]">Avis clients</div>
+            <div className="w-[333px] h-[72px] text-center text-teal-600 text-[47px] md:text-[64px] font-semibold font-['Playfair Display'] leading-[56px]">Avis clients</div>
           
              <Slider />
            

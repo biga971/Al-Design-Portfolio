@@ -36,10 +36,10 @@ const Right = () => {
                Tu souhaites me découvrir davantage ? Rencontrons-nous !
             </div>
             <div className='flex justify-center'>
-                <button className="w-[207px] bg-neutral-700 rounded-[80px] h-10 cursor-pointer flex justify-center items-center mt-3" >
+                {/* <button className="w-[207px] bg-neutral-700 rounded-[80px] h-10 cursor-pointer flex justify-center items-center mt-3" >
                     <span className="text-white font-semibold font-['Inter']">Prendre Rendez-vous</span>
                     <ArrowRight color="white" size={24} />
-                </button>
+                </button> */}
             </div>
             
         </div>
