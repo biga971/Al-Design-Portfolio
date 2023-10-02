@@ -19,12 +19,12 @@ function App() {
       <div className="w-full h-full linear z-0">
         <About />
         <div style={{ 
-          backgroundImage: `url(${Background})`,
+          backgroundImage: `url(${Background})`, 
           backgroundRepeat: 'no-repeat',
           backgroundPosition: 'center',
           backgroundSize: 'cover', 
           position: 'relative',
-          //opacity: 0.3,
+          /* opacity: 0.3, */
           height: "auto",
           width: "100%",
           zIndex: -1

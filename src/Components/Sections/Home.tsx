@@ -20,15 +20,15 @@ const Home = () => {
             </div>
             
             <div className='flex flex-col items-center md:flex-row gap-2 pt-5'>
-                <button className="w-[152.68px] h-[42.89px] px-[23.84px] py-2 bg-teal-600 rounded-lg justify-start items-start inline-flex cursor-pointer">
+                {/* <button className="w-[152.68px] h-[42.89px] px-[23.84px] py-2 bg-teal-600 rounded-lg justify-start items-start inline-flex cursor-pointer">
                     <span className="text-slate-50 text-lg font-medium font-['Roboto'] leading-[26.82px]">
                         Me découvrir
                     </span>
-                </button>
+                </button> */}
 
-                <button className="w-[236px] h-[43px] bg-white rounded-lg border border-black cursor-pointer" >
+                {/* <button className="w-[236px] h-[43px] bg-white rounded-lg border border-black cursor-pointer" >
                 <div className="w-[236px] text-center text-black text-lg font-medium font-['Roboto'] leading-[26.82px]">Découvrir mes réalisations</div>
-                </button>
+                </button> */}
             </div>
             
         </section>

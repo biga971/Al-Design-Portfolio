@@ -23,8 +23,8 @@ const Left = () => {
             
             <div className="flex flex-col gap-2 md:gap-10">
                 <div className="flex flex-row gap-4 items-center">
-                    <div className='h-12 w-12  flex items-center justify-center bg-white rounded-full border-4 border-opacity-80' >
-                    <PhoneCall color="black" size={30} />
+                    <div className='h-12 w-12  flex items-center justify-center bg-white rounded-full border-2 border-borderColor border-opacity-80' >
+                    <PhoneCall color="#363636" size={30} />
                     </div>
                     <div className="flex items-center h-[50px] text-white text-[18px] md:text-[32px] font-medium font-['Playfair Display'] ">
                         0 696 23 71 72
@@ -32,8 +32,8 @@ const Left = () => {
                 </div>
 
                 <div className="flex flex-row gap-4 items-center mb-7">
-                    <div className='h-12 w-12  flex items-center justify-center bg-white rounded-full border-4 border-opacity-80' >
-                    <Mail color="black" size={30} />
+                    <div className='h-12 w-12  flex items-center justify-center bg-white rounded-full border-2 border-borderColor border-opacity-80' >
+                    <Mail color="#363636" size={30} />
                     </div>
                     <div className="flex items-center h-[50px] text-white text-[18px] md:text-[32px] font-medium font-['Playfair Display'] ">
                         contact.aldesign97@gmail.com
