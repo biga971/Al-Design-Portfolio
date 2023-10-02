@@ -36,7 +36,7 @@ const Left = () => {
                     <Mail color="black" size={30} />
                     </div>
                     <div className="flex items-center h-[50px] text-white text-[18px] md:text-[32px] font-medium font-['Playfair Display'] ">
-                        contact.awc.design@gmail.com
+                        contact.aldesign97@gmail.com
                     </div>
                 </div>
             </div>

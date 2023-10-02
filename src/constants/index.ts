@@ -42,20 +42,20 @@ export const custommersRiviews = [
   {
     _id: 1,
     rate: 5.0,
-    description: "Je suis vraiment contente de mon logo. Encore merci !",
-    name: "Manuella KITTAVINY"
+    description: "Alexandra a su comprendre mon besoin en quelques mots. Je suis vraiment content de mon logo. Encore merci !",
+    name: "Malick TOTO"
   },
   {
     _id: 2,
-    rate: 5.0,
+    rate: 4.0,
     description: "Échanges fluides. Après le premier contact pour déterminer mes attentes, j’ai très vite reçu des modèles convaincants. Après ajustement mon logo était prêt en 3 jours.",
     name: "Manuella KITTAVINY"
   },
   {
     _id: 3,
-    rate: 4,
-    description: "Je suis vraiment contente de mon logo. Encore merci !",
-    name: "Manuella KITTAVINY"
+    rate: 5,
+    description: "Alexandra nous a fourni un travail exceptionnelle. On ressent qu'elle aime ce qu'elle fait !",
+    name: "Client(e) Anonyme"
   },
 ];
 
