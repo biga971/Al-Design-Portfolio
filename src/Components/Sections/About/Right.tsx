@@ -13,7 +13,7 @@ const Right = () => {
                     Alexandra LARCHER 
                 </span> <br />
                 <span className="text-zinc-800 text-2xl md:text-5xl  font-semibold font-['Playfair Display'] md:leading-[56px] ml-2">
-                    et je vais t’aider à développer
+                et je vais t’aider à développer
                 </span><br />
                 <span className="text-teal-600 text-2xl md:text-5xl  font-semibold font-['Playfair Display'] md:leading-[56px] ml-2">
                     l’image de ta marque
