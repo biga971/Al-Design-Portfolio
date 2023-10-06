@@ -87,7 +87,7 @@ const Right = () => {
                 </div>
                <button 
                 type='button'
-                className={`absolute  right-8 bottom-9 flex items-center justify-center w-[71px] h-[71px] shadow rounded-full custom-shadows-button ${bounce}`} 
+                className={`absolute right-2 bottom-4  sml:right-8 sml:bottom-9 flex items-center justify-center w-[71px] h-[71px] shadow rounded-full custom-shadows-button ${bounce}`} 
                 style={{background: '#4DB6AC'}}
                 onClick={ () => onClick() }
                 >

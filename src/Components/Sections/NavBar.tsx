@@ -5,6 +5,9 @@ import { MdClose } from "react-icons/md";
 import { socialsNav as db } from '../../constants/socials'
 import logo from '../../assets/Images/logo.png'
 import { navLinksdata } from '../../constants';
+import { NavMenu } from './Navbar/NavMenu'
+import Toggle from './Navbar/Menu/Toggle';
+import Menu from './Navbar/Menu/Menu';
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false)
@@ -42,22 +45,25 @@ const Navbar = () => {
             </li>
           ))}
         </ul>
-        <span
+
+        {/* <NavMenu /> */}
+        <Toggle setShowMenu={setShowMenu} showMenu={showMenu} />
+        {/* <span
           onClick={() => setShowMenu(!showMenu)}
           className="text-xl mdxl:hidden bg-teal-600 w-10 h-10 inline-flex items-center justify-center rounded-full text-white cursor-pointer"
         >
           <FiMenu />
-        </span>
+        </span> */}
         {showMenu && (
-          <div className="w-[80%] h-screen overflow-scroll absolute top-0 left-0 bg-white p-4 scrollbar-hide">
+          <>
+          <Menu setShowMenu={setShowMenu} />
+          {/* <div className="w-[80%] h-screen overflow-scroll absolute top-0 right-0 bg-white p-4 scrollbar-hide">
             <div className="flex flex-col gap-8 py-2 relative">
               <div className='flex justify-center'>
                 <img className="w-32" src={logo} alt="logo" />
-                {/* <p className="text-sm text-gray-400 mt-2">
-                  Truc a rajouter
-                </p> */}
+                
               </div>
-              <ul className="flex flex-col gap-4">
+              <ul className="flex flex-col items-center gap-4">
                 {navLinksdata.map((item) => (
                   <li
                     key={item._id}
@@ -78,7 +84,7 @@ const Navbar = () => {
                 ))}
               </ul>
               <div className="flex flex-col w-full gap-4">
-                <h2 className="text-base uppercase font-titleFont mb-4">
+                <h2 className="text-base uppercase flex justify-center font-titleFont mb-4">
                   Me Trouver
                 </h2>
                 <div className="flex justify-center w-full gap-4">
@@ -96,7 +102,8 @@ const Navbar = () => {
                 <MdClose />
               </span>
             </div>
-          </div>
+          </div>  */}
+          </>
         )}
         </div>
     )
