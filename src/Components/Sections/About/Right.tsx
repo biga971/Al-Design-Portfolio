@@ -22,7 +22,7 @@ const Right = () => {
 
             <div className="w-full  text-justify ">
                 <span className="text-black text-xl md:text-2xl font-normal font-['Inter'] ">
-                    Passionée par la communication, je souhaite mettre mes compétences à ton service.<br/>
+                    Passionnée par la communication, je souhaite mettre mes compétences à ton service.<br/>
                 </span>
                 <span className="text-black text-base md:text-lg font-normal font-['Inter'] leading-normal"><br/>
                 En quelques mots :<br/>
