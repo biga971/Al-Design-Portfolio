@@ -8,23 +8,23 @@ const Home = () => {
           id='home' 
           className='flex flex-col items-center justify-center py-0 md:py-20 w-full h-screen'
         >
-            <HomeReveal delay={0}>
+            <HomeReveal delay={0.2}>
                 <img className="w-[266px] h-[230px]" src={logo} />
             </HomeReveal>
             
-            <HomeReveal delay={0.2}>
+            <HomeReveal delay={0.4}>
                 <div className="w-full h-[152.98px] text-center text-zinc-800 text-6xl md:text-8xl font-bold font-['Playfair Display'] leading-[115.20px]">
                     AL.Design
                 </div>
             </HomeReveal>
             
-            <HomeReveal delay={0.4}>
-                <span className="w-full text-center text-teal-600 text-[24px] md:text-[32px] font-bold font-['Nunito'] uppercase  tracking-[8px] xxl:tracking-[16px] lgl:tracking-[9px]">
+            <HomeReveal delay={0.6}>
+                <span className="w-full flex items-center text-center text-teal-600 text-[24px] md:text-[32px] font-bold font-['Nunito'] uppercase  tracking-[8px] xxl:tracking-[16px] lgl:tracking-[9px]">
                     La contribution qui fait la différence
                 </span>
             </HomeReveal>
             
-            <HomeReveal delay={0.6}>
+            <HomeReveal delay={0.8}>
                 <div className="w-full h-20 text-center text-black text-opacity-60 text-xl px-4 md:text-2xl font-normal font-['Nunito Sans'] mt-10 mb-2">
                     Te voilà enfin !<br/>
                     Je te laisse faire ton choix pour la suite de ta découverte.
