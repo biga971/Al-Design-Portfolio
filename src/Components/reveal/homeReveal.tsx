@@ -1,7 +1,7 @@
-import React,{ useEffect, useRef } from 'react'
+import React,{ useEffect, useRef, MutableRefObject, ReactComponentElement } from 'react'
 import { motion, useInView, useAnimation } from 'framer-motion';
 
-const HomeReveal = ({ children , delay }) => {
+const HomeReveal = ({ children, delay }: any) => {
   const ref = useRef(null)
   const isInView = useInView( ref, { once: true })
   const mainControls = useAnimation()
@@ -12,7 +12,7 @@ const HomeReveal = ({ children , delay }) => {
     }
   },[isInView])
   return (
-      <div ref={ref} style={{ positon: "relative", /* width: "fit-content", */ overflow: "hidden" }}>
+      <div ref={ref} >
           <motion.div
             variants={{
               hidden: { opacity: 0, y: 75},

@@ -1,23 +1,36 @@
 import React from 'react'
 import logo from '../../assets/Images/logo.png'
+import HomeReveal from '../reveal/homeReveal'
 
 const Home = () => {
     return (
         <section
           id='home' 
-          className='flex flex-col items-center justify-center py-0 md:py-20 w-full '
+          className='flex flex-col items-center justify-center py-0 md:py-20 w-full h-screen'
         >
-            <img className="w-[266px] h-[230px]" src={logo} />
-            <div className="w-full h-[152.98px] text-center text-zinc-800 text-6xl md:text-8xl font-bold font-['Playfair Display'] leading-[115.20px]">
-                AL.Design
-            </div>
-            <span className="w-full text-center text-teal-600 text-[24px] md:text-[32px] font-bold font-['Nunito'] uppercase  tracking-[8px] xxl:tracking-[16px] lgl:tracking-[9px]">
-                La contribution qui fait la différence
-            </span>
-            <div className="w-full h-20 text-center text-black text-opacity-60 text-xl px-4 md:text-2xl font-normal font-['Nunito Sans'] mt-10 mb-2">
-                Te voilà enfin !<br/>
-                Je te laisse faire ton choix pour la suite de ta découverte.
-            </div>
+            <HomeReveal delay={0}>
+                <img className="w-[266px] h-[230px]" src={logo} />
+            </HomeReveal>
+            
+            <HomeReveal delay={0.2}>
+                <div className="w-full h-[152.98px] text-center text-zinc-800 text-6xl md:text-8xl font-bold font-['Playfair Display'] leading-[115.20px]">
+                    AL.Design
+                </div>
+            </HomeReveal>
+            
+            <HomeReveal delay={0.4}>
+                <span className="w-full text-center text-teal-600 text-[24px] md:text-[32px] font-bold font-['Nunito'] uppercase  tracking-[8px] xxl:tracking-[16px] lgl:tracking-[9px]">
+                    La contribution qui fait la différence
+                </span>
+            </HomeReveal>
+            
+            <HomeReveal delay={0.6}>
+                <div className="w-full h-20 text-center text-black text-opacity-60 text-xl px-4 md:text-2xl font-normal font-['Nunito Sans'] mt-10 mb-2">
+                    Te voilà enfin !<br/>
+                    Je te laisse faire ton choix pour la suite de ta découverte.
+                </div>
+            </HomeReveal>
+            
             
             <div className='flex flex-col items-center md:flex-row gap-2 pt-5'>
                 {/* <button className="w-[152.68px] h-[42.89px] px-[23.84px] py-2 bg-teal-600 rounded-lg justify-start items-start inline-flex cursor-pointer">
